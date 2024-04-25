@@ -1,15 +1,22 @@
 <?php 
+// buatlah class dan object untuk menampilkan hasil perhitungan luas Persegi Panjang dan segitiga
 
-// buatlah class dan object untuk menampilkan list buku
-// Judul Buku | Penulis, Penerbit (Rp. harga)
-class Buku {
-    // tuliskan sintaks disini
-    // gunakan method constructor
-    // sertakan method getLabel() untuk mencetak label
+// variabel1 = panjang atau alas
+// variabel2 = lebar atau tinggi
+
+class Luas {
+    public  $variabel1,
+            $variabel2;
+
+    // buat method constructor
+
+    // method luasPersegiPnj()
+
+    // method luasSegitiga()
 }
 
-//buat minimal 2 objek
-$obj1 = new Buku();
-$obj2 = new Buku();
+$persegiPanjang = new Luas();
+$segitiga = new Luas();
 
-// panggil function getLabel() dibawah sini untuk semua object
+echo $obj->luasPersegiPnj(); // menampilkan Luas P. Panjang
+echo $obj->luasSegitiga(); // menampilkan Luas Segitiga
