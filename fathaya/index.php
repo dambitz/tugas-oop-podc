@@ -1,5 +1,4 @@
-<?php
-
+<?php 
 // buatlah class dan object untuk menampilkan hasil perhitungan luas Persegi Panjang dan segitiga
 
 // variabel1 = panjang atau alas
@@ -11,12 +10,13 @@ class Luas {
 
     // buat method constructor
 
-    // buat method luasPersegiPnj()
+    // method luasPersegiPnj()
 
-    // buat method luasSegitiga()
+    // method luasSegitiga()
 }
 
-$obj1 = new Luas();
+$persegiPanjang = new Luas();
+$segitiga = new Luas();
 
 echo $obj->luasPersegiPnj(); // menampilkan Luas P. Panjang
 echo $obj->luasSegitiga(); // menampilkan Luas Segitiga
